@@ -6,6 +6,6 @@ output "vm_user_name" {
   value = module.virtual_machine.username
 }
 
-output "vm_name" {
-  value = module.virtual_machine.name
-}
+#output "vm_name" {
+  #value = module.virtual_machine.name
+#}
