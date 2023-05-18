@@ -1,3 +1,8 @@
+output "name" {
+  description = "Specifies the name of the virtual machine"
+  value       = azurerm_linux_virtual_machine.virtual_machine.name
+}
+
 output "public_ip" {
   description = "Specifies the public IP address of the virtual machine"
   value       = azurerm_linux_virtual_machine.virtual_machine.public_ip_address
