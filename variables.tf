@@ -1,3 +1,7 @@
+variable "client_secret" {
+  description = "client secret"
+  type        = string
+}
 variable "log_analytics_workspace_name" {
   description = "Specifies the name of the log analytics workspace"
   default     = "BaboAksWorkspace"
