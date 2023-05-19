@@ -593,7 +593,7 @@ variable "admin_username" {
 
 variable "ssh_public_key" {
   description = "(Required) Specifies the SSH public key for the jumpbox virtual machine and AKS worker nodes."
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDw/tsp4smN8ELcGVsVOLHQoUaOleXpnPExF2LlEC0KxUeQiov9rFwV0/PPHzVnbXTVNtwwqAr9wQX8OuFGEUbuPAGrU6F7K0aSxh4IN9IiPqn5yh7ccFkCi5gu3sTs/mASxoJ7iMCHqYKCRSUqh+YaWZEdB4Hx2627OK/3QitJ3m1geEnbkJreYQFUp5Q2h9hcS6yTx+AR9Wgyosku8VpXJ/6QhYQY/z2cxe1MF8OaouY3zIv6mOuWRZhOlJC7ogxPe31sEiel13bnEh1cIPKXPPGrh0rjgrmptYmaBeszkPtJFLwhwTl1gjPrUpdijYm08eC5DxFksJqAg4uEWgQ38guiSTLi+MWQMNUMwAgA56c0H76dS5mIaVCgQcTbPa2dJO8+UUprFROuK5cLkPhxDO7VFQxIH9YEXqfh9vkhpPR4MeuDt7TC+wH/p75ZL9/4KLrKsuuTw8eZiiISyhCzhEzwc1MJk5Q3tEViQotdmoTSVBn/vJY/YvS3qP4Ys3U= rakesh@DESKTOP-CSSQDCL"
+  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCyUawhKvdsqtxttdv2nuf+CKCNpXFN9BoJjlR7cOzYnQQooK97abdGmy88qscbqmzee05o7VDeDyRFahBdgamlwfsFz1D0BqAaN5cyfyEHo7ktDaCnWcl3J/dDuuxFLU9MbNioKvWrQDqWE9Goe/atDyF8uXj8rppaeAecfnKtlrYKvc9qQyti2xfAVj4CGxjMrNi3UWSeTwW9H8PQCcOfsrSpguQ8q2EJadgGx2LW/pRIXMhC9AeDyUXBXujM6GoChmGjfOS3k5cFs+AwggW+KiHcddAvv0nF+Ua5/SOjllW+81izP5o6EzCvQ7GamMlbv2I5svlo+xPEvXz9l/uyW1CP8jWvIy5FUndn+4HpMD2SI4zgZf75UnaWDixVLh7hrE+xaqzWx8jYRSIjV24qH+pErBr3zJDCbalfnVP2mgF209RaO9wtc/8daSa0RrEbGfx2C5yyqNtf8k+8k7RPNaskAQG3m3DOKAThw3Zo1ApnTwIRa+4Xd8THv3hlbgM= rakesh@DESKTOP-CSSQDCL"
   type        = string
 }
 
@@ -605,7 +605,7 @@ variable "script_storage_account_name" {
 
 variable "script_storage_account_key" {
   description = "(Required) Specifies the name of the storage account that contains the custom script."
-  default     = "ZSyrdLv0ADysCNaweAAKEIUxT0Tt/3wpWGnU8c6GRnZhOy6hySNUGPTbYpWpiAHI/Q7pKBpkQADS+AStg95HHQ=="
+  default     = "Cyk8rYwaSA8GL9Xo3tDa8D36yk3/gqRN+KFujVArohUdwLnJ8n6qD4u3j4+801C42B6oTvEiM42R+AStNY7Dnw=="
   type        = string
 }
 
