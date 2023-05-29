@@ -605,7 +605,6 @@ variable "script_storage_account_name" {
 
 variable "script_storage_account_key" {
   description = "(Required) Specifies the name of the storage account that contains the custom script."
-  default     = "3XBqlQHfqCw8eQrSVok2xabyu/BxIsQmDY81QUxq96bO5la/u6bj5H7+f0Ja0/Y1q/sT6gH0hin/+AStTqzQ3g=="
   type        = string
 }
 
