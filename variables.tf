@@ -3,6 +3,21 @@ variable "client_secret" {
   type        = string
 }
 
+variable "subscription_id" {
+  description = "subscription id"
+  type        = string
+}
+
+variable "client_id" {
+  description = "client id"
+  type        = string
+}
+
+variable "tenant_id" {
+  description = "tenant id"
+  type        = string
+}
+
 variable "log_analytics_workspace_name" {
   description = "Specifies the name of the log analytics workspace"
   default     = "BaboAksWorkspace"
