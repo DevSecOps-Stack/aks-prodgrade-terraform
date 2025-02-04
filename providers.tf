@@ -13,10 +13,10 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "08c1a718-38f5-4e27-aa97-805a24a827a6"
-  client_id       = "f7c46375-3af5-4aeb-b4a9-6b1d8fa12165"
+  subscription_id = var.subscription_id
+  client_id       = var.client_id
   client_secret   = var.client_secret
-  tenant_id       = "4c6f1364-8db1-4e57-95ef-b3cf7dd7d4c9"
+  tenant_id       = var.tenant_id
 }
 
 #Generate randon name for all resources
