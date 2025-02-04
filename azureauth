@@ -1,0 +1,25 @@
+az login  # Authenticate to Azure
+
+# Replace with your subscription ID
+az account set --subscription="302b8a0c-c3f6-4169-9233-45adda46f384"
+
+# Create a service principal with Contributor role
+az ad sp create-for-rbac \
+  --name "terraform-cloud-sp" \
+  --role Contributor \
+  --scopes /subscriptions/SUBSCRIPTION_ID \
+  --sdk-auth
+
+
+{
+  "clientId": "68126fe3-9bb2-4448-866a-9cc5f623fdde",
+  "clientSecret": ",
+  "subscriptionId": "302b8a0c-c3f6-4169-9233-45adda46f384",
+  "tenantId": "083e8166-af50-4a18-85fe-c28cb0b8a7ea",
+  "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+  "resourceManagerEndpointUrl": "https://management.azure.com/",
+  "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+  "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+  "galleryEndpointUrl": "https://gallery.azure.com/",
+  "managementEndpointUrl": "https://management.core.windows.net/"
+}
