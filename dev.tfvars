@@ -12,4 +12,6 @@ ssh_public_key               = "your-ssh-public-key"
 
 # Storage Account Key (Required)
 script_storage_account_name  = "amoldevscriptstorage" #use the name which is already created in azure
+container_name               = "scripts"
+script_name                  = "configure-jumpbox-vm.sh"
 script_storage_account_key   = "your-storage-account-key"
