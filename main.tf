@@ -1,7 +1,16 @@
 locals {
-  storage_account_prefix = "boot"
-  route_table_name       = "DefaultRouteTable"
-  route_name             = "RouteToAzureFirewall"
+  resource_group_name         = "${terraform.workspace}-rg"
+  log_analytics_workspace     = "${terraform.workspace}-AksWorkspace"
+  hub_vnet_name               = "${terraform.workspace}-hub-vnet"
+  aks_vnet_name               = "${terraform.workspace}-aks-vnet"
+  aks_cluster_name            = "${terraform.workspace}-aks-cluster"
+  domain_name_label           = "${terraform.workspace}-vm"
+  firewall_name               = "${terraform.workspace}-firewall"
+  vm_name                     = "${terraform.workspace}-vm"
+  acr_name                    = "${terraform.workspace}-acr"
+  bastion_host_name           = "${terraform.workspace}-bastion"
+  key_vault_name              = "${terraform.workspace}-keyvault"
+  script_storage_account_name = "${terraform.workspace}-script-str"
 }
 
 data "azurerm_client_config" "current" {
